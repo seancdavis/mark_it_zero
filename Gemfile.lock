@@ -77,5 +77,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.6)
   mark_it_zero!
   sqlite3
