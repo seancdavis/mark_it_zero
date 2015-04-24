@@ -2,7 +2,7 @@
   <%= content_tag(:h2, post.title) %>
   <div class="markdown">
     <h4>Markdown:</h4>
-    <%= post.markdown %>
+    <%= content_tag(:pre, post.markdown) %>
   </div>
   <div class="body">
     <h4>Body:</h4>
