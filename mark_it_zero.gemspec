@@ -4,20 +4,23 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mark_it_zero/version"
 
 # Describe your gem and declare its dependencies:
-Gem::Specification.new do |s|
-  s.name        = "mark_it_zero"
-  s.version     = MarkItZero::VERSION
-  s.authors     = ["Sean C Davis"]
-  s.email       = ["scdavis41@gmail.com"]
-  s.homepage    = ""
-  s.summary     = "Syntax highlighted markdown editor for rails"
-  s.description = ""
-  s.license     = "MIT"
+Gem::Specification.new do |spec|
+  spec.name        = "mark_it_zero"
+  spec.version     = MarkItZero::VERSION
+  spec.authors     = ["Sean C Davis"]
+  spec.email       = ["scdavis41@gmail.com"]
+  spec.homepage    = ""
+  spec.summary     = "Syntax highlighted markdown editor for rails"
+  spec.description = ""
+  spec.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  spec.files         = `git ls-files -z`.split("\x0")
+  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 4.1.0"
+  spec.add_dependency "rails", "~> 4.1.0"
 
-  s.add_development_dependency "sqlite3"
+  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "bundler", "~> 1.6"
 end
