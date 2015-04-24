@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version     = MarkItZero::VERSION
   spec.authors     = ["Sean C Davis"]
   spec.email       = ["scdavis41@gmail.com"]
-  spec.homepage    = ""
+  spec.homepage    = "https://github.com/seancdavis/mark_it_zero"
   spec.summary     = "Syntax highlighted markdown editor for rails"
   spec.description = ""
   spec.license     = "MIT"
