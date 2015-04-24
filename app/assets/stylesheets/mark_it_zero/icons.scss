@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src: font-url('mark_it_zero/icomoon.eot');
+  src: font-url('mark_it_zero/icomoon.eot?#iefix') format('embedded-opentype'),
+       font-url('mark_it_zero/icomoon.woff') format('woff'),
+       font-url('mark_it_zero/icomoon.ttf') format('truetype'),
+       font-url('mark_it_zero/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.miz-icon-bold, .miz-icon-italic, .miz-icon-quote, .miz-icon-unordered-list, .miz-icon-ordered-list, .miz-icon-link, .miz-icon-image, .miz-icon-play, .miz-icon-music, .miz-icon-contract, .miz-icon-fullscreen, .miz-icon-question, .miz-icon-info, .miz-icon-undo, .miz-icon-redo, .miz-icon-code, .miz-icon-preview {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.miz-icon-bold:before {
+  content: "\e000";
+}
+.miz-icon-italic:before {
+  content: "\e001";
+}
+.miz-icon-quote:before {
+  content: "\e003";
+}
+.miz-icon-unordered-list:before {
+  content: "\e004";
+}
+.miz-icon-ordered-list:before {
+  content: "\e005";
+}
+.miz-icon-link:before {
+  content: "\e006";
+}
+.miz-icon-image:before {
+  content: "\e007";
+}
+.miz-icon-play:before {
+  content: "\e008";
+}
+.miz-icon-music:before {
+  content: "\e009";
+}
+.miz-icon-contract:before {
+  content: "\e00a";
+}
+.miz-icon-fullscreen:before {
+  content: "\e00b";
+}
+.miz-icon-question:before {
+  content: "\e00c";
+}
+.miz-icon-info:before {
+  content: "\e00d";
+}
+.miz-icon-undo:before {
+  content: "\e00e";
+}
+.miz-icon-redo:before {
+  content: "\e00f";
+}
+.miz-icon-code:before {
+  content: "\e011";
+}
+.miz-icon-preview:before {
+  content: "\e002";
+}

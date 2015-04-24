@@ -6815,7 +6815,7 @@ function createIcon(name, options) {
     }
   }
 
-  el.className = options.className || 'icon-' + name;
+  el.className = options.className || 'miz-icon-' + name;
   return el;
 }
 
@@ -7158,7 +7158,7 @@ function Editor(options) {
 
   options.toolbar = options.toolbar || Editor.toolbar;
   // you can customize toolbar with object
-  // [{name: 'bold', shortcut: 'Ctrl-B', className: 'icon-bold'}]
+  // [{name: 'bold', shortcut: 'Ctrl-B', className: 'miz-icon-bold'}]
 
   if (!options.hasOwnProperty('status')) {
     options.status = ['lines', 'words', 'cursor'];
