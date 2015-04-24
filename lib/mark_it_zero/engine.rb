@@ -1,6 +1,5 @@
 module MarkItZero
   class Engine < ::Rails::Engine
-    isolate_namespace MarkItZero
 
     # Autoload the view helper
     initializer 'mark_it_zero.action_controller' do |app|
@@ -8,5 +7,6 @@ module MarkItZero
         helper MarkItZero::EditorHelper
       end
     end
+
   end
 end
