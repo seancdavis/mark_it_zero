@@ -1,7 +1,8 @@
 <%= simple_form_for @post do |f| %>
 
   <%= f.input :title %>
-  <%= f.input :markdown %>
+  <%= f.input :markdown, :label => 'Body', :input_html => {
+    :class => 'mark-it-zero' } %>
 
   <%= f.submit %>
 <% end %>
