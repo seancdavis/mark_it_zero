@@ -1,0 +1,31 @@
+.CodeMirror pre {
+  font-family: Consolas, monospace;
+  font-size: 13px;
+  line-height: 18px;
+}
+.editor-toolbar {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  opacity: 1;
+  &:before, &:after {
+    background: none;
+  }
+  a {
+    opacity: 0.6;
+  }
+}
+.CodeMirror {
+  border: 1px solid #ccc;
+}
+.CodeMirror-scroll {
+  padding: 15px 45px 45px 15px;
+}
+.editor-statusbar {
+  span {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
