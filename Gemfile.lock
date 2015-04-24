@@ -37,6 +37,9 @@ GEM
     builder (3.2.2)
     erubis (2.7.0)
     i18n (0.7.0)
+    jquery-rails (3.1.2)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
     json (1.8.2)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
@@ -61,6 +64,9 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+    simple_form (3.1.0)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     sprockets (3.0.2)
       rack (~> 1.0)
     sprockets-rails (2.2.4)
@@ -78,5 +84,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.6)
+  jquery-rails
   mark_it_zero!
+  simple_form
   sqlite3

@@ -1,0 +1,14 @@
+<article>
+  <%= content_tag(:h2, post.title) %>
+  <div class="markdown">
+    <h4>Markdown:</h4>
+    <%= post.markdown %>
+  </div>
+  <div class="body">
+    <h4>Body:</h4>
+    <%= post.body.html_safe if post.body.present? %>
+  </div>
+  <%= link_to 'Edit', edit_post_path(post) %>
+  <%= link_to 'Delete', post_path(post), :method => :delete %>
+  <hr>
+</article>
