@@ -94,7 +94,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.6)
-  jquery-rails
   mark_it_zero!
   simple_form
   sqlite3

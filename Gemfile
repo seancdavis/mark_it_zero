@@ -14,4 +14,3 @@ gemspec
 # gem 'debugger'
 
 gem 'simple_form'
-gem 'jquery-rails'
