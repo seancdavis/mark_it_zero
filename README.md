@@ -104,6 +104,16 @@ We use Pygments.rb to add classes for syntax highlighting to code blocks. Most
 of what I'm doing is contained within [this
 Railscast](http://railscasts.com/episodes/207-syntax-highlighting-revised).
 
+### Without Active Record
+
+You can use Mark It Zero! without ActiveRecord. Just use the `Markdown` class'
+`to_html` method.
+
+```ruby
+MarkItZero::Markdown.to_html("# Heading 1\n\n> A really cool quote ...")
+# => "<h1 id=\"heading-1\">Heading 1</h1>\n\n<blockquote>\n<p>A really cool quote ...</p>\n</blockquote>\n"
+```
+
 Special Thanks!
 ----------
 
