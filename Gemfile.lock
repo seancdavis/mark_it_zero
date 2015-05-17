@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mark_it_zero (0.1.1)
+    mark_it_zero (0.2.0)
       jquery-rails
       pygments.rb
       rails (~> 4.1.0)
