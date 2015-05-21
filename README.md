@@ -39,6 +39,25 @@ They are not dependent on one another, and can be used separately.
 
 ### Markdown Editor
 
+To use the markdown editor, first make sure you have the assets included in
+your manifest file.
+
+You'll want styles:
+
+```scss
+@import 'mark_it_zero';
+```
+
+And scripts:
+
+```js
+//= require jquery
+//= require mark_it_zero
+```
+
+> Note: Mark It Zero! automatically requires jQuery, so if you forget, it
+> will still work fine (magic!).
+
 The markdown editor is simple. There's a `markdown` method added onto your form
 object. So, all you have to do is this:
 
