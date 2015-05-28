@@ -5,7 +5,8 @@ module MarkItZero
 
   class HTMLwithPygments < Redcarpet::Render::HTML
     def block_code(code, language)
-      Pygments.highlight(code, lexer: language)
+      Pygments.highlight(code, :lexer => language,
+        :options => { :linespans => 'line' } )
     end
   end
 
