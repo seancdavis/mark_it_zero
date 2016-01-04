@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    mark_it_zero (0.3.1)
+    mark_it_zero (0.3.2)
       jquery-rails
       pygments.rb
-      rails (~> 4.1.0)
+      rails
       redcarpet
       sass-rails
 
@@ -105,3 +105,6 @@ DEPENDENCIES
   mark_it_zero!
   simple_form
   sqlite3
+
+BUNDLED WITH
+   1.10.6
